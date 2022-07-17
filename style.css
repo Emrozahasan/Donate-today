@@ -1,7 +1,5 @@
 * {
     font-family: 'Manrope', sans-serif;
-    ;
-
     margin: 0;
     padding: 0;
     position: relative;
@@ -14,38 +12,37 @@
 }
 
 .top-banner {
-    background-image: url(images/donation13.jpg);
+    background-image: url(images/donation13.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100vw;
+    width: 98.96vw;
 
 }
 
 .text h1 {
-    font-size: 100px;
-    color: white;
+    font-size: 80px;
+    color: rgb(5, 0, 0);
     font-weight: 700;
     padding-top: 7%;
 }
 
 .text p {
-    font-size: 20px;
-    color: whitesmoke;
-    font-weight: 500;
-    padding-top: 1%;
+    font-size: 25px;
+    color: rgb(13, 1, 1);
+    font-weight: 600;
+    padding-top: 2%;
+    padding-left: 400px;
+    width: 50%;
 
 }
 
 .button1 {
     background-color: rgb(198, 51, 25);
     color: aliceblue;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    padding: 10px 15px 10px 15px;
     border-radius: 10px;
 }
 
@@ -56,7 +53,7 @@
 
 .donate-today p {
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(16, 15, 15);
 }
 
@@ -91,7 +88,7 @@
 
 .input {
 
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 20px;
     border: 0px;
     outline: 0;
@@ -110,7 +107,7 @@
 }
 
 .our-plan p {
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 2px;
     color: rgb(56, 54, 54);
 }
@@ -125,8 +122,8 @@
     width: 300px;
     border: 0px solid rgb(208, 244, 208);
     padding: 50px;
+    margin-left: 120px;
 
-    margin: 20px;
 
 }
 
@@ -142,7 +139,7 @@
     padding: 50px;
     padding-top: 2%;
     padding-bottom: 3%;
-    margin: 20px;
+    margin: 50px;
 
 }
 
@@ -156,7 +153,7 @@
     width: 300px;
     border: 0px solid black;
     padding: 50px;
-    margin: 20px;
+    margin: 2px;
 }
 
 .container {
@@ -171,21 +168,27 @@
     display: flex;
 }
 
-.half-width {
-    width: 50%;
+.half-width-text {
+    font-size: larger;
+    display: inline-block;
+    width: 20%;
     padding-left: 8%;
     text-align: left;
+    margin-left: -190px;
+
 }
 
-.half-width h1 {
+.half-width-text h1 {
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.half-width img {
-    width: 80%;
-    padding-right: 80%;
 
+
+.half-width-2 img {
+    width: 680px;
+    height: 450px;
+    padding-left: 320px;
 }
 
 .survive {
@@ -198,7 +201,7 @@
 }
 
 .update {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .update span {
@@ -246,6 +249,7 @@
 .footer {
     background-color: rgb(27, 28, 28);
     margin-top: 5%;
+    margin-left: -10px;
 }
 
 ::placeholder {
@@ -268,4 +272,30 @@
     font-size: 20px;
     color: white;
     padding: 1%;
+}
+
+.full-width {
+    font-size: larger;
+    text-align: left;
+    width: 20%;
+    padding-left: 8%;
+
+    margin-left: 50px;
+}
+
+.full-width img {
+
+    width: 630px;
+    height: 410px;
+    padding-left: 20px;
+    margin-left: -400px;
+}
+
+.donate-plan {
+    margin-left: -120px;
+}
+
+.full-width h1 {
+    text-align: left;
+    font-size: 30px
 }
