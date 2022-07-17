@@ -83,7 +83,10 @@
 
 .wrapper {
     padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
 }
+
 
 
 .input {
@@ -91,23 +94,31 @@
     font-size: 20px;
     padding-top: 20px;
     border: 0px;
+    width: 900px;
     outline: 0;
     background: transparent;
     border-bottom: 1px solid grey;
+}
 
+.cursor-left {
+    text-align: left;
 }
 
 ::placeholder {
     color: rgb(183, 176, 176);
 }
 
+.our-plan {
+    padding-left: 120px;
+}
+
 .our-plan h1 {
     padding-bottom: 10px;
-    font-weight: 500;
+
 }
 
 .our-plan p {
-    font-size: 15px;
+    font-size: 20px;
     padding-top: 2px;
     color: rgb(56, 54, 54);
 }
@@ -243,6 +254,7 @@
     background-color: rgb(200, 197, 197);
     border: 0px solid rgb(200, 197, 197);
     border-radius: 0px;
+    outline: 0;
     box-sizing: border-box;
 }
 
